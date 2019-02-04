@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM debian:stretch-slim
 
 RUN apt update
 RUN apt dist-upgrade -y
