@@ -1,1 +1,1 @@
-docker build --no-cache -t jasonslay/python-selenium . && docker push jasonslay/python-selenium
+docker buildx build --platform linux/amd64,linux/arm64 -t jasonslay/python-selenium --push .
